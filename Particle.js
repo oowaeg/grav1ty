@@ -5,7 +5,7 @@ class Particle {
     this.acc = createVector(0, 0);
 
     this.c = color(0);
-    this.w = 50;
+    this.w = 20;
   }
 
   addForce(aForce) {
